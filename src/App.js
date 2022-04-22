@@ -1,24 +1,55 @@
-import logo from './logo.svg';
-import './App.css';
+import styled from 'styled-components';
+import AboutMe from './page/AboutMe';
+import Menu from './page/Menu';
+import Project from './page/Project';
+import Contact from './page/Contact';
+import { motion } from 'framer-motion';
+
+
+
+const Background = styled(motion.div)`
+  position: absolute;
+  /* width: 100%; */
+  background-color: #4db6ac;
+  background-size: cover;
+  background-repeat: repeat-y;
+  /* background-attachment: fixed; */
+  border: solid 1px black;
+`;
+const Title = styled.h1`
+  font-size: 5em;
+  text-align: center;
+  margin-bottom: 1em;
+  background-color: #1323;
+`
+const Wrapper = styled.div`
+  display: flex;
+ 
+`;
+const ContentsWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
+
+const MovePage = styled(motion.a)`
+  text-decoration: none;
+  transition: ease-in 1s;
+`;
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Background>
+      <Title>강수영의 포트폴리오</Title>
+     <Wrapper>
+        <Menu/>
+      <ContentsWrapper>
+        <MovePage name="aboutMe"/><AboutMe/>
+        <MovePage name="project"/><Project/>
+        <MovePage name="contact"/><Contact/>
+      </ContentsWrapper>
+      </Wrapper>
+    </Background>
+
   );
 }
 
