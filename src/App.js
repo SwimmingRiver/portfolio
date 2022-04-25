@@ -4,6 +4,7 @@ import Menu from './page/Menu';
 import Project from './page/Project';
 import Contact from './page/Contact';
 import { motion } from 'framer-motion';
+import './Styles.css';
 
 
 
@@ -15,6 +16,7 @@ const Background = styled(motion.div)`
   background-repeat: repeat-y;
   /* background-attachment: fixed; */
   border: solid 1px black;
+  
 `;
 const Title = styled.h1`
   font-size: 5em;
@@ -33,7 +35,8 @@ const ContentsWrapper = styled.div`
 
 const MovePage = styled(motion.a)`
   text-decoration: none;
-  transition: ease-in 1s;
+  /* transition-duration:1s; */
+  
 `;
 
 function App() {
