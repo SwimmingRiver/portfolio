@@ -32,6 +32,7 @@ const ProjImg2 = styled.img`
 `;
 const ProText =styled.p`
     font-size: 1.5em;
+    font-family: 'Noto Sans KR', sans-serif;
 `;
 export default [
     <Box><ProjTitle>

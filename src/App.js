@@ -23,6 +23,7 @@ const Title = styled.h1`
   text-align: center;
   margin-bottom: 1em;
   background-color: #1323;
+  font-family: 'Noto Sans KR', sans-serif;
 `
 const Wrapper = styled.div`
   display: flex;
