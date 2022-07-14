@@ -78,8 +78,8 @@ function AboutMe(){
             <br/>
             <h2 style={{fontWeight:"bold"}}>배우는 것을 멈추지않는 개발자를 꿈꾸며..!</h2>
             <br/>
-       <p>컴퓨터 공학을 전공으로 공부를 하여 졸업하였고, 잠깐의 공백이 있었고, 
-           현재는 웹 프론트엔드 개발자를 목표로 하여 공부하고 있습니다.</p>
+       {/* <p>컴퓨터 공학을 전공으로 공부를 하여 졸업하였고, 잠깐의 공백이 있었고, 
+           현재는 웹 프론트엔드 개발자를 목표로 하여 공부하고 있습니다.</p> */}
            <br/>
            <h2 onClick={ShowingToggle}
            style={{cursor:"pointer"}}
@@ -118,7 +118,7 @@ function AboutMe(){
                    CSS : 사용한 각 태그들을 원하는 디자인으로 활용할 수 있습니다.
                </li>
                <li>
-                   JavaScript : React 라이브러리를 사용하여 기능을 만들 수 있습니다. 현재는 최대한 리액트없이 사용할려고 하고 있습니다. 
+                   JavaScript : 기본적인 개념의 이해를 목표로 공부하고있습니다.
                </li>
                <li>
                    REACT : useState,useEffect를 중심으로 필요한 hooks와 상황에 필요한 라이브러리를 활용하여 효율을 늘릴 수 있습니다.

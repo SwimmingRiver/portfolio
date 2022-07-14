@@ -44,8 +44,8 @@ export default [
         <ProText>일정과 예산의 제한을 초기에 잘못 책정하여, 팀원들 모두가 아쉬움이 남는 프로젝트였습니다.</ProText>
         <ProText>해당 프로젝트 경험이 초기기획과 개발일정의 중요성을 직접 경험하여 느끼게 됐습니다.</ProText>
         </Box>,
+        // box1
     <Box>
-
         <ProjTitle>To Do List</ProjTitle>
         <Proj2Wrap>
         <ProjImg2 src={require('../Img/todolistcapture.JPG')} alt='Proj2'/>
@@ -57,6 +57,19 @@ export default [
             제가 할 수 있는 것과 더 배워야할 것에 대해 다시 생각할 수 있었습니다.<br/>
             <a href='https://swimmingriver.github.io/todoList/' target={"_blank"}>TO DO LIST 페이지 보기</a>
         </ProText>
+        </Proj2Wrap>
+    </Box>,
+    // box2
+    <Box>
+        <ProjTitle>LoginForm</ProjTitle>
+        <Proj2Wrap>
+            <ProjImg2 src={require('../Img/LoginForm/Login.JPG')} alt='Proj3'/>
+            <ProText>회원가입을 하여 회원 정보를 입력받고, 받은 정보를 회원정보를 열람할 수 있게 만들었습니다.
+                <br/>
+                회원가입으로 받은 정보는 로컬 스토리지에 저장하는 방식을 사용했습니다.
+                <br/>
+                <a href='https://swimmingriver.github.io/loginForm/' target={"_blank"}>Login Form 페이지 보기</a>
+                </ProText>
         </Proj2Wrap>
     </Box>,
     <Box><CommingSoon>Comming Soon...</CommingSoon></Box>
